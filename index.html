@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Static Resume</title>
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="resume">
+            <section class="personal-info">
+                <figure>
+                    <img
+                        src="images/abi-1.jpg"
+                        alt="Profile Picture"
+                        width="150"
+                        height="180"
+                    />
+                    <figcaption><h1 id="name">Abishai Kashif</h1></figcaption>
+                </figure>
+
+                <div id="contact-details">
+                    <p id="email">
+                        <a href="mailto:abishaikashif975@gmail.com"
+                            ><i class="bx bxs-envelope"></i> Email</a
+                        >
+                    </p>
+
+                    <p id="github">
+                        <a href="https://github.com/Abishai-kashif"
+                            ><i class="bx bxl-github"></i> Github</a
+                        >
+                    </p>
+
+                    <p id="linkedIn">
+                        <a
+                            href="https://www.linkedin.com/in/abishai-kashif-b482362ba/"
+                            ><i class="bx bxl-linkedin-square"></i> LinkedIn</a
+                        >
+                    </p>
+
+                    <p id="number">
+                        <a href="tel:923402096738"
+                            >923402096738 <i class="bx bxs-phone"></i
+                        ></a>
+                    </p>
+                </div>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+
+                <ul>
+                    <li>
+                        Bachelor of Science in Computer Science, XYZ University
+                    </li>
+                    <li>
+                        Master of Science in Software Engineering, ABC
+                        University
+                    </li>
+                </ul>
+            </section>
+
+            <section class="skills" style="display: none">
+                <h2>Skills</h2>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </section>
+
+            <section class="work-experience" style="display: none">
+                <h2>Work Experience</h2>
+
+                <ul>
+                    <li>Software Developer at TechCorp (2020 - Present)</li>
+                    <li>Junior Developer at WebSolutions (2018 - 2020)</li>
+                </ul>
+            </section>
+
+            <button id="toggle-skills">Show More</button>
+        </div>
+
+        <script src="dist/script.js"></script>
+    </body>
+</html>

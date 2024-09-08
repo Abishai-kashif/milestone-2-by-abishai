@@ -1,0 +1,106 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    line-height: 1.5rem;
+    margin-top: 35px;
+}
+
+h1 {
+    margin: 3px;
+    font-size: 1.3rem;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+h2 {
+    background-color: #ccc;
+    padding: 6px;
+    border-radius: 2px;
+}
+
+.personal-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+}
+
+section.personal-info figure {
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+section.personal-info figure img {
+    max-width: 150px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.personal-info #contact-details {
+    margin-top: 20px;
+}
+
+section.personal-info #contact-details p {
+    font-size: 1rem;
+    padding: 0 10px;
+    margin: 5px;
+}
+
+section.personal-info #contact-details p a i {
+    font-size: 1.3rem;
+    margin-right: 3px;
+}
+
+section.personal-info #contact-details p a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+section.personal-info #contact-details p a:hover {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.personal-info #contact-details p#number {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+button#toggle-skills {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 105%;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#toggle-skills:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}

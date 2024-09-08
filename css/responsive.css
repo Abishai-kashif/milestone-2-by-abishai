@@ -1,0 +1,26 @@
+/* 
+    Module: responsive.css 
+    description: This file contains the styles for the responsive design.
+*/
+
+@media (max-width: 600px) {
+    .resume {
+        padding: 10px;
+    }
+
+    section.personal-info {
+        display: block;
+    }
+
+    section {
+        margin-top: 15px;
+    }
+
+    img {
+        max-width: 100px;
+    }
+
+    figure {
+        margin: 10px auto;
+    }
+}
